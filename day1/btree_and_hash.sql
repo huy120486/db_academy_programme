@@ -31,7 +31,7 @@ create index idx_t_btree_1 on test using btree (info);
 -- => failed and explain
 -- Add hash index
 create index idx_t_hash_1 on test using hash (info);
--- Show data
+-- Show data to check
 select * from test limit 1;
 -- Check new index by using explain
 explain (analyze,verbose,timing,costs,buffers) select * from test where info = 'text from above result';
