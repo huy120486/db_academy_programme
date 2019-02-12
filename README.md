@@ -41,6 +41,6 @@ Speaker: Phuong Doan and Hue Minh
 
 Topic: How to use 'Explain' (cond)
 + Join (nested loop, merge join, hash join)
-  => How to use index to improve Join node?
++ How to use index to improve Join node?
 
 Bonus topic: Why Uber Engineering Switched from Postgres to MySQL? (If have time)
