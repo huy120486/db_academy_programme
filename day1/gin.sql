@@ -26,7 +26,7 @@ select * from t_gin1 where arr && array[1,2];
 create index idx_t_gin1_using_btree on t_gin1 (arr);
 explain (analyze,verbose,timing,costs,buffers) select * from t_gin1 where arr && array[1,2];
 -- Note that: Btree doesn't support an operation to check a collection contains an item or not
--- => Using gin index
+-- Not work => Using gin index
 create index idx_t_gin1_1_using_gin on t_gin1 using gin (arr);
 -- Find all array containing 1 or 2
 explain (analyze,verbose,timing,costs,buffers) select * from t_gin1 where arr && array[1,2];
@@ -48,8 +48,7 @@ insert into t_gin2 select generate_series(1,100000), random()*10 ;
 -- Try to use btree index
 create index idx_t_gin2_using_btree on t_gin2 (c1);
 explain (analyze,verbose,timing,costs,buffers) select * from t_gin2 where c1=1;
--- Show problems
--- => Using gin index
+-- Not work => Using gin index
 create index idx_t_gin2_using_gin on t_gin2 using gin (c1);
 -- Explain
 explain (analyze,verbose,timing,costs,buffers) select * from t_gin2 where c1=1;
