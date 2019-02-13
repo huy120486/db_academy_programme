@@ -58,4 +58,3 @@ FROM pg_class c left join pg_namespace n on ( n.oid=c.relnamespace)
 WHERE
   nspname not in ('pg_catalog','information_schema') AND
   relname like '%t_gin2%';
-```
