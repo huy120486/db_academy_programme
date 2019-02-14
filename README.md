@@ -24,6 +24,7 @@ Topic: Storage system and Indexing
 + index only scan
 + expression index
 + compound index
++ partial index
 
 ## Day 3
 
