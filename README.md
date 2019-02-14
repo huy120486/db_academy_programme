@@ -2,7 +2,7 @@
 
 ## Day 1
 
-Speaker: Huy Tran (solo)
+Instructor: Huy Tran (solo)
 
 Duration: About 40 minutes
 
@@ -17,7 +17,7 @@ Topic: Index types
 
 ## Day 2
 
-Speaker: Nham Le (and Thu Kim supports)
+Instructors: Nham Le (and Thu Kim supports)
 
 Topic: Storage system and Indexing
 + seq/index/bitmap scan
@@ -28,7 +28,7 @@ Topic: Storage system and Indexing
 
 ## Day 3
 
-Speaker: Long Trym and Huy Duong
+Instructors: Long Trym and Huy Duong
 
 Topic: How to use 'Explain'
 + Sort (merge sort, quick sort, heap sort)
@@ -38,7 +38,7 @@ Topic: How to use 'Explain'
 
 ## Day 4
 
-Speaker: Phuong Doan and Hue Minh
+Instructors: Phuong Doan and Hue Minh
 
 Topic: How to use 'Explain' (cond)
 + Join (nested loop, merge join, hash join)
