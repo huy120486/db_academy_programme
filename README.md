@@ -19,12 +19,13 @@ Topic: Index types
 
 Instructors: Nham Le (and Thu Kim supports)
 
-Topic: Storage system and Indexing
+Topic: Storage system and Index techniques
 + seq/index/bitmap scan
 + index only scan
 + expression index
 + compound index
 + partial index
++ unique index
 
 ## Day 3
 
