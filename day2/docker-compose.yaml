@@ -3,7 +3,7 @@ version: "2"
 services:
 
   postgres:
-    image: postgres:alpine
+    image: postgres:9.6-alpine
     environment:
       POSTGRES_USER: world
       POSTGRES_PASSWORD: very_strong_password
