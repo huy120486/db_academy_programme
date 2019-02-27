@@ -12,9 +12,3 @@ services:
     volumes:
       - ./db/seed:/docker-entrypoint-initdb.d
       - ./db/data:/var/lib/postgresql/data
-
-  omnidb:
-    image: taivokasper/omnidb
-    ports:
-      - 8080:8080
-      - 25482:25482
