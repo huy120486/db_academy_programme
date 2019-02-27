@@ -6,4 +6,4 @@
 
   You are all set!
   
-  If you prefer GUI, access http://localhost:8080/
+  If you prefer GUI, access http://localhost:8080/. The credential would be admin/admin. Input very_strong_password if the error `fe_sendauth: no password supplied` popup.
